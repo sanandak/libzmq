@@ -64,7 +64,7 @@ typedef unsigned __int64 uint64_t;
 #endif
 
 #else
-
+#define __STDC_LIMIT_MACROS
 #include <stdint.h>
 
 #endif
